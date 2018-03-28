@@ -1,0 +1,113 @@
+body { 
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    font: 16px/1.42857 "Trebuchet MS",sans-serif;
+    margin:0;
+    overflow: scroll;
+}
+main {
+	border-radius: 10px;
+	position: relative;
+	margin: auto;
+	margin-top: 5%;
+	width: 850px;
+	height: 450px;
+	border: none;
+	padding: 5px;
+	background: linear-gradient(45deg, rgba(123,196,244,1) 0%, rgba(49,150,227,0.99) 100%);
+	-webkit-box-shadow: -1px 6px 18px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 6px 18px 2px rgba(0,0,0,0.75);
+	box-shadow: -1px 6px 18px 2px rgba(0,0,0,0.75);
+}
+
+select {
+	margin: 5px;
+	width: 100px;
+	padding: 5px 35px 5px 5px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	height: 30px;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMi4xNzEgNTEyLjE3MSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyLjE3MSA1MTIuMTcxOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNNDc5LjA0NiwyODMuOTI1Yy0xLjY2NC0zLjk4OS01LjU0Ny02LjU5Mi05Ljg1Ni02LjU5MkgzNTIuMzA1VjEwLjY2N0MzNTIuMzA1LDQuNzc5LDM0Ny41MjYsMCwzNDEuNjM4LDBIMTcwLjk3MSAgICBjLTUuODg4LDAtMTAuNjY3LDQuNzc5LTEwLjY2NywxMC42Njd2MjY2LjY2N0g0Mi45NzFjLTQuMzA5LDAtOC4xOTIsMi42MDMtOS44NTYsNi41NzFjLTEuNjQzLDMuOTg5LTAuNzQ3LDguNTc2LDIuMzA0LDExLjYyNyAgICBsMjEyLjgsMjEzLjUwNGMyLjAwNSwyLjAwNSw0LjcxNSwzLjEzNiw3LjU1MiwzLjEzNnM1LjU0Ny0xLjEzMSw3LjU1Mi0zLjExNWwyMTMuNDE5LTIxMy41MDQgICAgQzQ3OS43OTMsMjkyLjUwMSw0ODAuNzEsMjg3LjkxNSw0NzkuMDQ2LDI4My45MjV6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==) 96% / 15% no-repeat #eee;
+}
+
+select::-ms-expand { 
+	display: none; /* remove default arrow in IE 10 and 11 */
+}
+
+/* target Internet Explorer 9 to undo the custom arrow */
+@media screen and (min-width:0\0) {
+	select {
+		background:none\9;
+		padding: 5px\9;
+    }
+}
+.myInput {
+	border: 1px solid;
+	border-radius: 5px;
+	margin-left: 40px;
+	margin-bottom: 5px;
+	padding: 1px;
+	width: 150px;
+	height: 25px;
+	outline: none;
+	font-size: 18px;
+}
+.btn {
+	outline: none;
+	margin-left: none;
+	position: relative;
+	border: 1px solid;
+	height: 28px;
+	line-height: 25px;
+	width: 100px;
+	background-color: white;
+	cursor: pointer;	
+	transition: 0.2s;
+	font-size: 13px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+ul.menu li {
+	list-style: none;
+	padding: 5px 5px 7px 12px;
+	background: #FFFFFF;
+	border-radius: 10px;
+	border: 1px solid #3D3C3C;;
+	font-size: 16px;
+	transition: 0.2s;
+	width: 350px;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#myUl2 {
+	float: left
+}
+#myUl {
+	float: left;
+}
+.currencyBuy {
+	bottom: 5px;
+	clear: both;
+}
+.buyCurrency {
+	position: relative;
+	margin-left: 40px;
+	top: 20px;
+}
+.sellCurrency {
+	position: relative;
+	margin-left: 40px;
+	top: 20px;
+}
+.buy {
+	position: relative;
+	bottom: 30px;
+}
